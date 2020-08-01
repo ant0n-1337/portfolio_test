@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+}
+
+video{
+    pointer-events: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#s1{
+    position: relative;
+    height: 100%;
+}
+
+#s2{
+    background-color: #171717;
+    position: relative;
+    height: 100%;
+}
+
+#s3{
+    background-color: #171717;
+    position: relative;
+    height: 100%;
+}
+
+#s4{
+    background-image: linear-gradient(#171717, #000000);
+    position: relative;
+    height: 100%;
+}

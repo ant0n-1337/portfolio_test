@@ -1,0 +1,273 @@
+#sideHeader{
+    position: relative;
+    top: 45%;
+    left: 3%;
+    font-size: 3em;
+    z-index: 2;
+
+    color: white;
+    text-shadow: 2px 2px 18px black;
+}
+
+#sideHeader:hover{
+    text-shadow: 2px 2px 18px black;
+    top: 44%;
+    font-size: 3.9em;
+}
+
+.godownbutton{
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    z-index: 2;
+
+    background-image: url("arrows-down.png");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+
+    border: none;
+    padding: 2%;
+
+    display: inline-block;
+    border-radius: 100%;
+
+    box-shadow: 1px 1px 150px rgba(255,255,255,0.9);
+}
+
+.goupbutton{
+    position: absolute;
+    top: 2.5%;
+    left: 95%;
+    z-index: 2;
+
+    background-image: url("arrows-up.png");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    
+    border: none;
+    padding: 2%;
+
+    display: inline-block;
+    border-radius: 100%;
+
+    box-shadow: 1px 1px 150px rgba(255,255,255,0.9);
+}
+
+#bgVideo1{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    min-width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+#experience{
+    position: absolute;
+    z-index: 2;
+    left: 60%;
+    top: 20%;
+    width: 33%;
+
+    text-align: justify;
+    font-size: 1.1em;
+    color: #cccccc;
+    text-shadow: 2px 2px 18px#000000;
+}
+
+#bg1{
+    position: absolute;
+    top: 0%;
+    left: -15%;
+    z-index: 1;
+    width: 81.8%;
+}
+
+#priceTable{
+    position: absolute;
+    top: 50px;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+td{
+    width: 500px;
+    height: 40px;
+
+    text-align: center;
+
+    border-style: solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom: 1px;
+    
+}
+
+tr:hover{
+    background-color: #000000;
+    font-weight: bold;
+    color: white;
+}
+
+#fbButton{
+    background-image: url("fb.png");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+
+    position: absolute;
+    top: 33%;
+    left: 66%;
+    z-index: 2;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+
+    width: 20%;
+    height: 8%;
+
+}
+
+#fbButton:active{
+    width: 19.5%;
+    height: 7.5%;
+}
+
+#igButton{
+    background-image: url("ig.png");
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    top: 44%;
+    left: 66%;
+    z-index: 2;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+
+    width: 20%;
+    height: 8%;
+
+}
+
+#igButton:active{
+    width: 19.5%;
+    height: 7.5%;
+}
+
+#ttButton{
+    background-image: url("twitter.jpg");
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    top: 55%;
+    left: 66%;
+    z-index: 2;
+    display: inline-block;
+    border: none;
+    border-radius: 25px;
+
+    width: 20%;
+    height: 8%;
+
+}
+
+#ttButton:active{
+    width: 19.5%;
+    height: 7.5%;
+}
+
+form{
+    position: absolute;
+    top: 39%;
+    left: 33%;
+}
+
+input{
+    padding: 5px;
+}
+
+nav{
+    z-index: 0;
+    position: fixed;
+    height: 100%;
+    width: 33%;
+
+    font-size: 1.5em;
+    background-color: #000000;
+    color: white;
+
+    
+}
+
+ul{
+    list-style-type: none;
+
+    position: relative;
+    top: 31.5%;
+}
+
+li{
+    padding-bottom: 5%;
+}
+
+li:hover{
+    text-shadow: 1px 1px 10px#ffffff;
+    font-weight: bolder;
+}
+
+li:active{
+    font-weight: lighter;
+}
+
+.menubutton{
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    z-index: 2;
+
+    background-image: url("menu.png");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+
+    border: none;
+    padding: 2%;
+
+    display: inline-block;
+    border-radius: 100%;
+
+    box-shadow: 1px 1px 150px #ffffff;
+}
+
+.closebutton{
+    position: fixed;
+    top: 3%;
+    left: 2%;
+    z-index: 2;
+
+    background-image: url("close.png");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+
+    border: none;
+    padding: 2%;
+
+    display: inline-block;
+    border-radius: 100%;
+
+    box-shadow: 2px 2px 100px #ffffff;
+}
+
+
+
+

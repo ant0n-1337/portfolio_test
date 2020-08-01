@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="stylesheet" href="sections.css">
+    <script src="scripts.js"></script>
+    <title>Velit laborum deserunt</title>
+</head>
+<body>
+        <button onclick="menu()" class='menubutton'></button>
+        <nav id='menu'>
+            <button onclick="menuclose()" class='closebutton'></button>
+            <ul>
+                <li onclick="goto1()">LANDING</li>
+                <li onclick="goto2()">DOŚWIADCZENIE</li>
+                <li onclick="goto3()">CENNIK</li>
+                <li onclick="goto4()">KONTAKT</li>
+            </ul>
+        </nav>
+
+        <div id="s1">
+             <button onclick="goto2()" class='godownbutton'></button>
+             <video autoplay muted loop id="bgVideo1">
+                <source src="code.mov" type="video/mp4">
+              </video>
+             <span id='sideHeader'>Antoni Przesławski - portfolio</span>
+        </div>
+
+        <div id="s2">
+            
+            <button onclick="goto3()" class='godownbutton'></button>
+            <button onclick="goto1()" class='goupbutton'></button>
+            <span id='sideHeader'>Doświadczenie</span>
+            <img src="background1.png" id='bg1'>
+            <div id='experience'>
+                <p>
+                    Anim proident labore nulla ea irure est ullamco adipisicing et mollit enim cillum labore. Velit amet eiusmod labore amet exercitation. Nisi ut et excepteur mollit excepteur magna officia tempor laborum amet deserunt excepteur voluptate. Enim aliquip do ut consequat non reprehenderit ad ex culpa adipisicing ullamco sunt aute. Enim labore laboris ex officia eiusmod labore commodo officia in anim id. Mollit laboris culpa deserunt ea ullamco qui exercitation magna velit enim. Cillum irure eiusmod consectetur consequat.Dolor sunt id aute aute sunt officia dolore. Incididunt proident quis voluptate proident mollit. Nostrud veniam aliqua deserunt eu pariatur duis culpa exercitation ea aute fugiat fugiat. Deserunt nostrud veniam magna labore et ut non culpa elit duis. Proident consectetur Lorem irure aliquip commodo cupidatat veniam laborum duis voluptate voluptate esse culpa fugiat. Ad id ipsum velit veniam aliquip deserunt. Ea dolore fugiat minim excepteur.
+                </p>
+             </div>
+        </div>
+
+        <div id="s3">
+            <button onclick="goto4()" class='godownbutton'></button>
+            <button onclick="goto2()" class='goupbutton'></button>
+            <span id='sideHeader'>Cennik</span>
+            <div id='experience'>
+                <table id='priceTable'>
+                    <tr>
+                        <td>Cena</td>
+                        <td>Usługa</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>In ipsum anim</td>
+                    </tr>
+                    <tr>
+                        <td>75</td>
+                        <td>Ad laboris comodo</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Vupidatat sint partur</td>
+                    </tr>
+                    <tr>
+                        <td>250</td>
+                        <td>Nulla cupidatat</td>
+                    </tr>
+                    <tr>
+                        <td>420</td>
+                        <td>Minim eiusmod ea</td>
+                    </tr>
+                    <tr>
+                        <td>1000</td>
+                        <td>Consecteur aliqip</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="s4">
+            <button onclick="goto3()" class='goupbutton'></button>
+            <span id='sideHeader'>Kontakt</span>
+            
+            <button onclick="fb()" id='fbButton'></button>
+            <button onclick="ig()" id='igButton'></button>
+            <button onclick="tt()" id='ttButton'></button>
+
+            <form>
+                <input type="text" size="40" id="name" name="name" placeholder="Wpisz swoje imię i nazwisko"><br>
+                <textarea id="message" name="message" cols="39" rows="8" placeholder="Wpisz treść wiadomości"></textarea><br>
+                <input type="submit">
+            </form>
+        </div>
+</body>
+</html>
